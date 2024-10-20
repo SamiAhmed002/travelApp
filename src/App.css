@@ -1,0 +1,124 @@
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+.app {
+  text-align: center;
+  background-image: url('./train.jpg');
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.header {
+  background-color: #636363;
+  padding: 10px;
+  margin-bottom: 5%;
+  font-weight: bold;
+}
+
+.body {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.datetime {
+  display: grid;
+  justify-content: center;  /* Horizontal centering */
+  align-items: center;  
+  border: 3px solid white;
+  border-radius: 10px;  
+  color:white;
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.time {
+  font-size: 55px;
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+
+.date {
+  font-size: 35px;
+  margin-bottom: 24px;
+}
+
+.weather {
+  color: white;
+  border: 3px solid white;
+  border-radius: 10px;
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.hourly {
+  border: 3px solid white;
+  border-radius: 10px;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.trainStatus {
+  color: white;
+  border: 3px solid white;
+  border-radius: 10px;
+  margin-top: 20%;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 200%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.tfl {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.title {
+  background-color: #636363;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.elizabeth {
+  background-color: #773dbd;
+  border: 2px solid #450f88;
+  border-radius: 10px;
+  margin-top: 5%;
+}
+
+.district {
+  background-color: #007d32;
+  border: 2px solid #004d1f;
+  border-radius: 10px;
+  margin-top: 5%;
+}
+
+.hsc {
+  background-color: #f4a9be;
+  border: 2px solid #bc6e84;
+  border-radius: 10px;
+  margin-top: 5%;
+}
+
+.dlr {
+  background-color: #00afad;
+  border: 2px solid #017d7b;
+  border-radius: 10px;
+  margin-top: 5%;
+}
+
+.footer {
+  margin-top: 30%;
+}
