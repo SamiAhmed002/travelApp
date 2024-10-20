@@ -11,7 +11,7 @@ function App() {
   const [hourly, setHourly] = useState(null);
 
   useEffect(() => {
-    const apiKey = "16d8e3c5008af8baa953fc589f693bb8";
+    const apiKey = "";
     const city = "London";
     const url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`;
 
@@ -32,7 +32,7 @@ function App() {
   }, []);
 
   useEffect(() => {
-    const apiKey = "16d8e3c5008af8baa953fc589f693bb8";
+    const apiKey = "";
     const city = "London";
     const url = `https://pro.openweathermap.org/data/2.5/forecast/hourly?q=${city}&appid=${apiKey}&units=metric`;
 
@@ -86,8 +86,6 @@ function App() {
         </div>
       </body>
       <footer className="footer">
-      534560f88f0d4660a3a5af1e030c8059
-      07378daa5e3c481bb5b98029e0876b6b
       </footer>
     </div>
   );
